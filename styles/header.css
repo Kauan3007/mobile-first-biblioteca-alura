@@ -3,7 +3,24 @@
     height: 24px;
     background-image: url(../imagens/Menu.svg.png);
     display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
 }
 cabecalho{
     background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
 }
+.div-1{
+    display: flex;
+    align-items: center;
+}
+h1{
+    display: none;
+}
+
+@media screen and(min-width:1024px) {
+    h1{display: block;
+    font-size: 30px;}
