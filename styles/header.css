@@ -23,7 +23,18 @@
 h1 {
     display: none;
 }
+.lista-menu-titulo,.lista-menu-item {
 
+    padding:1em;
+    background-color: var(--branco);
+}
+.lista-menu-titulo{
+    color: var(--amarelo);
+}
+.lista-menu-link{
+    background:var(--roxo);
+    background-clip: ;
+}
 @media screen and (min-width:1024px) {
 
     h1 {
@@ -39,3 +50,4 @@ h1 {
            position: absolute;
            top: 100%;
     }
+   
